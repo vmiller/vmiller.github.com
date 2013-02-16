@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Vaughn's Github Page]]></title>
-  <link href="http://vmiller.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: MDT | Vaughn's Github Page]]></title>
+  <link href="http://vmiller.github.com/blog/categories/mdt/atom.xml" rel="self"/>
   <link href="http://vmiller.github.com/"/>
   <updated>2013-02-16T13:28:22-05:00</updated>
   <id>http://vmiller.github.com/</id>
@@ -21,17 +21,6 @@
     <content type="html"><![CDATA[<p>I have added my ZCM install script to my github account.  This is a vbs script that I use to make the ZCM installer more friendly in the Microsoft Deployment Toolkit.</p>
 
 <p>A more extensive explanation of the development of the script can be found in <a href="http://www.vaughnemiller.com/2012/09/06/installing-novell-zcm-adaptive-agent-in-mdt-2012/">this blog post.</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Welcome to my Github Page]]></title>
-    <link href="http://vmiller.github.com/blog/2013/02/16/welcome-to-my-github-page/"/>
-    <updated>2013-02-16T08:51:00-05:00</updated>
-    <id>http://vmiller.github.com/blog/2013/02/16/welcome-to-my-github-page</id>
-    <content type="html"><![CDATA[<p>Welcome to my Github page.  I set this up primarily as a means to experiment with Octopress as a blog platform.  I hope to add posts here to accompany scripts that I share on github.</p>
-
-<p>See my main blog at <a href="http://www.vaughnemiller.com">Nuts and Bolts</a></p>
 ]]></content>
   </entry>
   
