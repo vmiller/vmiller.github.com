@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Vaughn's Github Page]]></title>
-  <link href="http://vmiller.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: General | Vaughn's Github Page]]></title>
+  <link href="http://vmiller.github.com/blog/categories/general/atom.xml" rel="self"/>
   <link href="http://vmiller.github.com/"/>
   <updated>2013-02-16T09:30:33-05:00</updated>
   <id>http://vmiller.github.com/</id>
