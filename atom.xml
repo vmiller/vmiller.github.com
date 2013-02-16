@@ -4,7 +4,7 @@
   <title><![CDATA[Vaughn's Github Page]]></title>
   <link href="http://vmiller.github.com/atom.xml" rel="self"/>
   <link href="http://vmiller.github.com/"/>
-  <updated>2013-02-16T08:44:38-05:00</updated>
+  <updated>2013-02-16T08:55:32-05:00</updated>
   <id>http://vmiller.github.com/</id>
   <author>
     <name><![CDATA[Vaughn Miller]]></name>
@@ -12,5 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome to my Github Page]]></title>
+    <link href="http://vmiller.github.com/blog/2013/02/16/welcome-to-my-github-page/"/>
+    <updated>2013-02-16T08:51:00-05:00</updated>
+    <id>http://vmiller.github.com/blog/2013/02/16/welcome-to-my-github-page</id>
+    <content type="html"><![CDATA[<p>Welcome to my Github page.  I set this up primarily as a means to experiment with Octopress as a blog platform.  I hope to add posts here to accompany scripts that I share on github.</p>
+
+<p>See my main blog at [[Nuts and Bolts|http://www.vaughnemiller.com]]</p>
+]]></content>
+  </entry>
   
 </feed>
