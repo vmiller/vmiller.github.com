@@ -4,7 +4,7 @@
   <title><![CDATA[Vaughn's Github Page]]></title>
   <link href="http://vmiller.github.com/atom.xml" rel="self"/>
   <link href="http://vmiller.github.com/"/>
-  <updated>2013-05-08T08:16:43-04:00</updated>
+  <updated>2013-05-10T14:55:38-04:00</updated>
   <id>http://vmiller.github.com/</id>
   <author>
     <name><![CDATA[Vaughn Miller]]></name>
@@ -14,11 +14,26 @@
 
   
   <entry>
+    <title type="html"><![CDATA[MDT Database Scripts]]></title>
+    <link href="http://vmiller.github.com/blog/2013/05/10/mdt-database-scripts/"/>
+    <updated>2013-05-10T14:46:00-04:00</updated>
+    <id>http://vmiller.github.com/blog/2013/05/10/mdt-database-scripts</id>
+    <content type="html"><![CDATA[<p>I recently dusted off a Powershell script that I wrote to do a batch upload of computer records to a MDT database.  It builds on Powershell modules provided by Michael Neihaus.  My original LoadComputers.ps1 script reads in a csv file and does some basic data validation before creating the new records.</p>
+
+<p>My reason for dusting off this script was to delete a batch of computers.  I modified the logic and that became the DeleteComputers.ps1 script.</p>
+
+<p>These scripts can most certainly use some more polish, and will need modified to fit the particular environment they are being used in.  I hope they might give someone else a good starting point.</p>
+
+<p>Go to the <a href="https://github.com/vmiller/MDT-Database-script">repo</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[ConnectShares script]]></title>
     <link href="http://vmiller.github.com/blog/2013/04/03/connectshares-script/"/>
     <updated>2013-04-03T09:36:00-04:00</updated>
     <id>http://vmiller.github.com/blog/2013/04/03/connectshares-script</id>
-    <content type="html"><![CDATA[<p>I have added an axample script for mounting network shares automatically on startup for and Active Directory bound Mac.  This script uses the Distiquished Name (DN) of the user to determine what shares should be mounted for the user.</p>
+    <content type="html"><![CDATA[<p>I have added an example script for mounting network shares automatically on startup for and Active Directory bound Mac.  This script uses the Distiquished Name (DN) of the user to determine what shares should be mounted for the user.</p>
 
 <p>The repository is <a href="https://github.com/vmiller/ConnectShares">here</a>, and includes a plist that can be used to implement the script as a LaunchAgent.  Go here for instructions on <a href="http://www.vaughnemiller.com/2012/10/23/packaging-a-launchagent-script-with-the-luggage/">packaging this up with The Luggage</a>.</p>
 ]]></content>

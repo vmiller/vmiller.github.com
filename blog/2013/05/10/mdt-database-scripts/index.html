@@ -5,14 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - Vaughn's Github Page</title>
+  <title>MDT Database Scripts - Vaughn's Github Page</title>
   <meta name="author" content="Vaughn Miller">
 
   
-  <meta name="description" content="Blog Archive 2013 MDT Database Scripts
-May 10 2013 ConnectShares script
-Apr 03 2013 ZCM Install Script
-Feb 16 2013 posted in MDT, Windows Welcome to &hellip;">
+  <meta name="description" content="I recently dusted off a Powershell script that I wrote to do a batch upload of computer records to a MDT database. It builds on Powershell modules &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +18,7 @@ Feb 16 2013 posted in MDT, Windows Welcome to &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://vmiller.github.com/blog/archives/">
+  <link rel="canonical" href="http://vmiller.github.com/blog/2013/05/10/mdt-database-scripts/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -67,69 +64,84 @@ Feb 16 2013 posted in MDT, Windows Welcome to &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">MDT Database Scripts</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-10T14:46:00-04:00" pubdate data-updated="true">May 10<span>th</span>, 2013</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>I recently dusted off a Powershell script that I wrote to do a batch upload of computer records to a MDT database.  It builds on Powershell modules provided by Michael Neihaus.  My original LoadComputers.ps1 script reads in a csv file and does some basic data validation before creating the new records.</p>
 
-  
-  <h2>2013</h2>
+<p>My reason for dusting off this script was to delete a batch of computers.  I modified the logic and that became the DeleteComputers.ps1 script.</p>
 
-<article>
-  
-<h1><a href="/blog/2013/05/10/mdt-database-scripts/">MDT Database Scripts</a></h1>
-<time datetime="2013-05-10T14:46:00-04:00" pubdate><span class='month'>May</span> <span class='day'>10</span> <span class='year'>2013</span></time>
+<p>These scripts can most certainly use some more polish, and will need modified to fit the particular environment they are being used in.  I hope they might give someone else a good starting point.</p>
 
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2013/04/03/connectshares-script/">ConnectShares script</a></h1>
-<time datetime="2013-04-03T09:36:00-04:00" pubdate><span class='month'>Apr</span> <span class='day'>03</span> <span class='year'>2013</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2013/02/16/zcm-install-script/">ZCM Install Script</a></h1>
-<time datetime="2013-02-16T13:21:00-05:00" pubdate><span class='month'>Feb</span> <span class='day'>16</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/mdt/'>MDT</a>, <a class='category' href='/blog/categories/windows/'>Windows</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2013/02/16/welcome-to-my-github-page/">Welcome to my Github Page</a></h1>
-<time datetime="2013-02-16T08:51:00-05:00" pubdate><span class='month'>Feb</span> <span class='day'>16</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/general/'>General</a></span>
-</footer>
-
-
-</article>
-
+<p>Go to the <a href="https://github.com/vmiller/MDT-Database-script">repo</a></p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Vaughn Miller</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-10T14:46:00-04:00" pubdate data-updated="true">May 10<span>th</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://vmiller.github.com/blog/2013/05/10/mdt-database-scripts/" data-via="vaughn_e_miller" data-counturl="http://vmiller.github.com/blog/2013/05/10/mdt-database-scripts/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/04/03/connectshares-script/" title="Previous Post: ConnectShares script">&laquo; ConnectShares script</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>
