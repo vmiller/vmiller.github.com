@@ -4,7 +4,7 @@
   <title><![CDATA[Vaughn's Github Page]]></title>
   <link href="http://vmiller.github.com/atom.xml" rel="self"/>
   <link href="http://vmiller.github.com/"/>
-  <updated>2013-05-10T14:55:38-04:00</updated>
+  <updated>2013-06-11T20:44:11-04:00</updated>
   <id>http://vmiller.github.com/</id>
   <author>
     <name><![CDATA[Vaughn Miller]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Firmware Password Packages]]></title>
+    <link href="http://vmiller.github.com/blog/2013/06/11/firmware-password-packages/"/>
+    <updated>2013-06-11T20:35:00-04:00</updated>
+    <id>http://vmiller.github.com/blog/2013/06/11/firmware-password-packages</id>
+    <content type="html"><![CDATA[<p>I added a repository with luggage recipes for creating two complimentary packages.  One to enable a firmware password, and the other to disable the password.  The old password is needed to disable, so the packages should be made with matching passwords and matching version numbers.</p>
+
+<p>These Makefiles make use of pkgbuild to make flat packages, so you will need to be using a recent version of Luggage.  Fill in the password of your choosing in the postinstall scripts.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MDT Database Scripts]]></title>
